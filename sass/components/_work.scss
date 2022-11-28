@@ -1,0 +1,38 @@
+.work {
+    @media screen and (max-width:1199px){
+        display: none;
+        
+    }
+    padding-top: 0;
+}
+
+.work__list {
+    display: flex;
+    gap: 30px;
+}
+
+.work__item {
+    flex-basis: calc(100% - 60px / 3);
+}
+
+.work__card {
+    position: relative;
+}
+
+.work__card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    font-weight: 700;
+
+    line-height: 1.14;
+
+    text-transform: uppercase;
+
+    color: var(--background-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

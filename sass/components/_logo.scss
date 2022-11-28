@@ -1,0 +1,21 @@
+.logo {
+    display: inline-block;
+    font-family:$logoFontfamily;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color:$logocolor;
+}
+
+.logo__first-part {
+    color: var(--accent-color);
+}
+
+.logo__last-part--light {
+    color: #ffffff;
+}
+.logo__last-part--dark{
+    color: $logocolor;
+}
