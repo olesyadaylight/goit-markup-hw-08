@@ -55,15 +55,15 @@
         flex-wrap: wrap;
         }
     }
-    
+}
 
 
-& .feature__item:not(:last-child) {
-   @media screen and (min-width:$desktop){
-    margin-right: 30px;
-   }
+// & .feature__item:not(:last-child) {
+//    @media screen and (min-width:$desktop){
+//     margin-right: 30px;
+//    }
    
-}}
+// }}
 
 .feature__description {
     line-height: 1.71;

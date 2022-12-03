@@ -2,17 +2,26 @@
     background-color:$teamBackground;
 }
 .team__list {
+   
     @media screen and(min-width:$tablet){
         display: flex;
-    }
    
+    }
+  @media screen and (max-width:1199px){
+    flex-wrap: wrap;
+        gap: 30px;   }
 }
 
-
 .team__content {
+
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    &:not(last-child){
+        @media screen and(max-width:767px){
+           margin-bottom: 30px; 
+        }
+    }
 }
 
 .team__position {

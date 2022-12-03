@@ -5,6 +5,9 @@
 .header__container {
     display: flex;
     align-items: center;
+    @media screen and(max-width: 1199px){
+        justify-content:space-between;
+    }
 }
 
 
