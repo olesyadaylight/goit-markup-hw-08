@@ -25,9 +25,16 @@
     border-radius: 4px;
     background-color: var(--background-color);
     transition: transform 400ms ease-out;
-
-    width:450px;
+@media screen and(max-width:479px){
+    width: 320px;
+    height: 571px;
+} 
+ @media screen and(min-width:480px){
+width: 450px;
     height: 609px;
+ }   
+
+    
 
     @media screen and(min-width:$desktop){
         width: 528px;
@@ -68,6 +75,7 @@
     fill: var(--accent-color);}
 }
         .form {
+            padding: 40px;
             @media screen and(max-width:1199px){
                 max-width: 450px;
                     height: 609px;
@@ -78,7 +86,7 @@
                 height: 581px;
             }
            
-            padding: 40px;
+           
         }
     
         .form__group,
