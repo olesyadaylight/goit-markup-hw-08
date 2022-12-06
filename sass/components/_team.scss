@@ -17,12 +17,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    &:not(last-child){
-        @media screen and(max-width:767px){
-           margin-bottom: 30px; 
-        }
+   
     }
-}
+
 
 .team__position {
     margin-bottom: 16px;
@@ -34,13 +31,15 @@
     border-radius: 0px 0px 4px 4px;
     background-color: var(--background-color);
 
-&:not(:last-child) {
+&:not(:last-child){
+        @media screen and(max-width:767px) {
+            margin-bottom: 30px;}
+        }
     @media screen and(min-width:$desktop){
     margin-right: 30px;
     }
     
-}}
-
+}
 .team__member {
     margin-bottom: 10px;
     font-weight: 500;
